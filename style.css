@@ -1,0 +1,369 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #111827;
+    padding: 18px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.hero button {.contact-button {
+    display: inline-block;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+    background-color: #111827;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}.services {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.service h3 {
+    font-size: 20px;
+}
+
+.service p {
+    line-height: 1.6;
+}
+.projects {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.project {
+    width: 300px;
+}
+
+.project img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.project {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 600px) {
+
+    nav {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px 8px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .services h2,
+    .projects h2,
+    .about h2,
+    .why-us h2,
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .service {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .project {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .about {
+        padding: 60px 20px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .why-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .whatsapp-button {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px 17px;
+        font-size: 14px;
+    }
+
+}
+
+.about {
+    padding: 70px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+.why-us {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+
+.why-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.why-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.why-item {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.why-item h3 {
+    font-size: 20px;
+}
+
+.why-item p {
+    line-height: 1.6;
+}.contact {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact > p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 17px;
+    margin: 18px 0;
+}
+
+.contact-info a {
+    color: #111827;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+html {
+    scroll-behavior: smooth;
+}
+.project {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.05);
+}
+.service {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.service h3 {
+    margin-bottom: 12px;
+}
+
+.service p {
+    color: #4b5563;
+}
+.project {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
